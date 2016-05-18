@@ -1,0 +1,13 @@
+<div class="left-panel-wrapper">
+	<form>
+		<label>Username: </label>
+		<input type="text" placeholder="Firstname" [(ngModel)]="account.user"><br>
+		<label>Password: </label>
+		<input type="password" placeholder="Password" [(ngModel)]="account.password" ><br>
+		<input type="checkbox">
+		<label>Agree Terms</label><br>
+		<label>City:</label>
+		<input type="text" placeholder="Search City">
+		<button (click)="onSubmit()">Click me</button>
+	</form>
+</div>
